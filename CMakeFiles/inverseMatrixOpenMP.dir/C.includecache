@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/i/Documents/parallel/inverseMatrix/openMP/src/matrix.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+omp.h
+-
+matrix.h
+/home/i/Documents/parallel/inverseMatrix/openMP/src/matrix.h
+
+include/matrix.h
+assert.h
+-
+

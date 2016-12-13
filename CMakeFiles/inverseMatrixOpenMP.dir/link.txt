@@ -1,0 +1,1 @@
+/usr/bin/cc   -fopenmp     CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o  -o inverseMatrixOpenMP -rdynamic -lm -lmpi 
