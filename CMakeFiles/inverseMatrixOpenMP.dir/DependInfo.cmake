@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/i/Documents/parallel/inverseMatrix/openMP/src/lu.c" "/home/i/Documents/parallel/inverseMatrix/openMP/CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o"
-  "/home/i/Documents/parallel/inverseMatrix/openMP/src/main.c" "/home/i/Documents/parallel/inverseMatrix/openMP/CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o"
-  "/home/i/Documents/parallel/inverseMatrix/openMP/src/matrix.c" "/home/i/Documents/parallel/inverseMatrix/openMP/CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o"
+  "/home/i/Documents/parallel/openmp-inverse/src/lu.c" "/home/i/Documents/parallel/openmp-inverse/CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o"
+  "/home/i/Documents/parallel/openmp-inverse/src/main.c" "/home/i/Documents/parallel/openmp-inverse/CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o"
+  "/home/i/Documents/parallel/openmp-inverse/src/matrix.c" "/home/i/Documents/parallel/openmp-inverse/CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

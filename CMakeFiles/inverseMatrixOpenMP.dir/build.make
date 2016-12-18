@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/i/Documents/parallel/inverseMatrix/openMP
+CMAKE_SOURCE_DIR = /home/i/Documents/parallel/openmp-inverse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/i/Documents/parallel/inverseMatrix/openMP
+CMAKE_BINARY_DIR = /home/i/Documents/parallel/openmp-inverse
 
 # Include any dependencies generated for this target.
 include CMakeFiles/inverseMatrixOpenMP.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/inverseMatrixOpenMP.dir/flags.make
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o: CMakeFiles/inverseMatrixOpenMP.dir/flags.make
 CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o: src/main.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/i/Documents/parallel/inverseMatrix/openMP/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/i/Documents/parallel/openmp-inverse/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o   -c /home/i/Documents/parallel/inverseMatrix/openMP/src/main.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o   -c /home/i/Documents/parallel/openmp-inverse/src/main.c
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/i/Documents/parallel/inverseMatrix/openMP/src/main.c > CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/i/Documents/parallel/openmp-inverse/src/main.c > CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.i
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/i/Documents/parallel/inverseMatrix/openMP/src/main.c -o CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/i/Documents/parallel/openmp-inverse/src/main.c -o CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.s
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o.requires:
 .PHONY : CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/inverseMatrixOpenMP.dir/src/main.c.o.provides.build: CMakeFiles/inver
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o: CMakeFiles/inverseMatrixOpenMP.dir/flags.make
 CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o: src/matrix.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/i/Documents/parallel/inverseMatrix/openMP/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/i/Documents/parallel/openmp-inverse/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o   -c /home/i/Documents/parallel/inverseMatrix/openMP/src/matrix.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o   -c /home/i/Documents/parallel/openmp-inverse/src/matrix.c
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/i/Documents/parallel/inverseMatrix/openMP/src/matrix.c > CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/i/Documents/parallel/openmp-inverse/src/matrix.c > CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.i
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/i/Documents/parallel/inverseMatrix/openMP/src/matrix.c -o CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/i/Documents/parallel/openmp-inverse/src/matrix.c -o CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.s
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o.requires:
 .PHONY : CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o.requires
@@ -97,17 +97,17 @@ CMakeFiles/inverseMatrixOpenMP.dir/src/matrix.c.o.provides.build: CMakeFiles/inv
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o: CMakeFiles/inverseMatrixOpenMP.dir/flags.make
 CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o: src/lu.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/i/Documents/parallel/inverseMatrix/openMP/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/i/Documents/parallel/openmp-inverse/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o   -c /home/i/Documents/parallel/inverseMatrix/openMP/src/lu.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o   -c /home/i/Documents/parallel/openmp-inverse/src/lu.c
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/i/Documents/parallel/inverseMatrix/openMP/src/lu.c > CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/i/Documents/parallel/openmp-inverse/src/lu.c > CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.i
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/i/Documents/parallel/inverseMatrix/openMP/src/lu.c -o CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/i/Documents/parallel/openmp-inverse/src/lu.c -o CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.s
 
 CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o.requires:
 .PHONY : CMakeFiles/inverseMatrixOpenMP.dir/src/lu.c.o.requires
@@ -149,6 +149,6 @@ CMakeFiles/inverseMatrixOpenMP.dir/clean:
 .PHONY : CMakeFiles/inverseMatrixOpenMP.dir/clean
 
 CMakeFiles/inverseMatrixOpenMP.dir/depend:
-	cd /home/i/Documents/parallel/inverseMatrix/openMP && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/i/Documents/parallel/inverseMatrix/openMP /home/i/Documents/parallel/inverseMatrix/openMP /home/i/Documents/parallel/inverseMatrix/openMP /home/i/Documents/parallel/inverseMatrix/openMP /home/i/Documents/parallel/inverseMatrix/openMP/CMakeFiles/inverseMatrixOpenMP.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/i/Documents/parallel/openmp-inverse && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/i/Documents/parallel/openmp-inverse /home/i/Documents/parallel/openmp-inverse /home/i/Documents/parallel/openmp-inverse /home/i/Documents/parallel/openmp-inverse /home/i/Documents/parallel/openmp-inverse/CMakeFiles/inverseMatrixOpenMP.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/inverseMatrixOpenMP.dir/depend
 

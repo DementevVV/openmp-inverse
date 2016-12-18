@@ -12,7 +12,7 @@ void printMatrix(SquareMatrix *mat) {
   int i, j;
   for (i = 0; i < s; ++i) {
     for (j = 0; j < s; ++j) {
-      fprintf(ffp,"%Lf ", m[i][j]);
+      fprintf(ffp,"%Lf,", m[i][j]);
     }
     fprintf(ffp,"\n");
   }
